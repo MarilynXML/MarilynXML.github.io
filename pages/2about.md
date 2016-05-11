@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: About
 permalink: /about/
@@ -59,4 +59,4 @@ Comment below to exchange link with me.
 
 ---
 
-只要有空一定会更新的！
+只要有空一定会更新的！ -->
