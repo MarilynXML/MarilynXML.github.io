@@ -74,4 +74,7 @@ ssh-keygen -C “YouEmailAddress” -t rsa
 git remote add origin git@github.com:YourName/YourRepositroy.git
 
 7）上传源到GitHub
-git push -u origin master
+git push -u origin master&emsp;&emsp;&emsp;&emsp;&emsp;提交后会提示输入github账号和密码
+
+
+
