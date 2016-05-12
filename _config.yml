@@ -1,4 +1,4 @@
-﻿# Site settings
+# Site settings
 title: Marilyn
 email: marilyn.xml@gmail.com
 description: Marilyn的博客 前端爱好者
@@ -19,6 +19,9 @@ gems: [jekyll-paginate]
 
 paginate: 10
 paginate_path: "page:num"
+
+
+
 
 # highlight
 # 本地用rouge, github上用pygments
