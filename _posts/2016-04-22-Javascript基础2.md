@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript基础2"
 date: 2016-04-22 22：10：24
-category: javascript
+category: JavaScript
 ---
 
 * content

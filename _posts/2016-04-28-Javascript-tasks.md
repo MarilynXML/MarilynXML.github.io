@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Javascript基础3"
+title: "Javascript任务"
 date: 2016-04-28 10：10：23
-category: javascript
+category: JavaScript
 ---
 
 * content
