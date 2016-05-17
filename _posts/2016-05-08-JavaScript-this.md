@@ -8,10 +8,6 @@ categories: JavaScript
 * content
 {:toc}
 
-本文为慕课网 [JavaScript深入浅出](http://www.imooc.com/learn/277) JavaScript 中的 this笔记。
-
-
-
 
 
 ## 全局的 this
@@ -33,15 +29,15 @@ categories: JavaScript
     function f1 () {
         return this;
     }
-    console.log(f1() === window);//true, global object
+    console.log(f1() === window);//true
 
-可以看到一般函数的 this 也指向 window，在 nodeJS 中为 global object
+可以看到一般函数的 this 也指向 window
 
     function f2 () {
         "use strict";//使用严格模式
         return this;
     }
-    console.log(f1() === undefined);//true
+    console.log(f2() === undefined);//true
 
 严格模式中，函数的 this 为 undefined
 
@@ -93,28 +89,7 @@ p 的原型是 o，调用 f() 的时候是调用了 o 上的方法 f()，这里�
 
 ---
 
-## get/set 方法与 this
 
-    function modulus() {
-        return Math.sqrt(this.re * this.re + this.im * this.im);
-    }
-    var o = {
-        re: 1,
-        im: -1,
-        get phase() {
-            return Math.atan2(this.im, this.re);
-        }
-    };
-    Object.defineProperty(o, 'modulus', {
-        get: modulus,
-        enumerable: true,
-        configurable: true
-    });
-    console.log(o.phase, o.modulus); // -0.78 1.4142
-
-get/set 方法中的 this 也会指向 get/set 方法所在的对象的。
-
----
 
 ## 构造器中的 this
 
